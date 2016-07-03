@@ -9,15 +9,33 @@
 }
 .next-button {
     background-image: url('../image/icon.png');
-    background-position: 76px 39px
+    background-position: 76px 39px;
+    position: absolute;
+    top: 65px;
+    left:325px;
 }
-
+.show-image {
+    display:   inline;
+}
 .image-set {   
     width: 300px;
     height: 300px;
     float: left;
 }
 
-.show-image {
-	display: inline;
+.image-bottom-css {
+    position: absolute;
+    bottom: 0px;
+    height: 219px;
+    left: 26px;
+}
+
+.image-slider-css {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-set-css {
+    background-color: red;
 }
