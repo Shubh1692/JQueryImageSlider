@@ -90,7 +90,6 @@ $(function() {
     // time interval function
     setInterval(function(){
         if(nextFlag) {
-            alert('op')
             _next(); 
         } else {
             _prev();
